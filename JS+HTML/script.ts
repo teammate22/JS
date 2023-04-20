@@ -61,4 +61,5 @@ function reverse(x: number){
 let input1 = document.getElementById('input1')
 const btn1 = document.getElementById('btn1')
 let span1 = document.getElementById('span1')
-btn1?.addEventListener('click', () => {span1.innerText = pow(input1)})
+// @ts-ignore
+btn1.addEventListener('click', () => {span1.innerText = pow(input1.value)})

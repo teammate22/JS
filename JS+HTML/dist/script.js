@@ -65,4 +65,5 @@ function reverse(x) {
 var input1 = document.getElementById('input1');
 var btn1 = document.getElementById('btn1');
 var span1 = document.getElementById('span1');
-btn1 === null || btn1 === void 0 ? void 0 : btn1.addEventListener('click', function () { span1.innerText = pow(input1); });
+// @ts-ignore
+btn1.addEventListener('click', function () { span1.innerText = pow(input1.value); });
