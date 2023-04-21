@@ -67,3 +67,8 @@ var btn1 = document.getElementById('btn1');
 var span1 = document.getElementById('span1');
 // @ts-ignore
 btn1.addEventListener('click', function () { span1.innerText = pow(input1.value); });
+var input2 = document.getElementById('input2');
+var btn2 = document.getElementById('btn2');
+var span2 = document.getElementById('span2');
+// @ts-ignore
+btn2.addEventListener('click', function () { span2.innerText = reverse(input2.value); });

@@ -63,3 +63,9 @@ const btn1 = document.getElementById('btn1')
 let span1 = document.getElementById('span1')
 // @ts-ignore
 btn1.addEventListener('click', () => {span1.innerText = pow(input1.value)})
+
+let input2 = document.getElementById('input2')
+const btn2 = document.getElementById('btn2')
+let span2 = document.getElementById('span2')
+// @ts-ignore
+btn2.addEventListener('click', () => {span2.innerText = reverse(input2.value)})
